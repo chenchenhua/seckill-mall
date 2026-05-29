@@ -1,0 +1,28 @@
+# 编译输出
+/target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# 敏感配置（核心）
+application-dev.yml
+application-prod.yml
+application-*.yml
+!application.yml
+
+# 日志
+*.log
+logs/
+
+# 其他
+*.tmp
+*.bak
